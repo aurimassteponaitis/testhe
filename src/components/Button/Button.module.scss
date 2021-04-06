@@ -1,0 +1,15 @@
+button {
+  background: $blue;
+  border-radius: 4px;
+  height: 30px;
+  width: 88px;
+  cursor: pointer;
+  border-radius: $border-radius;
+  border: none;
+  outline: none;
+  transition: 0.2s all;
+
+  &:active {
+    transform: scale(0.95);
+  }
+}
